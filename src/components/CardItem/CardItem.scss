@@ -1,0 +1,145 @@
+.card-item {
+  padding: 24px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 24px 24px rgba(0, 0, 0, 0.12);
+
+  &__info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 22px;
+
+    span {
+      line-height: 22px;
+      font-weight: 600;
+    }
+
+    a {
+      margin-left: 4px;
+      width: 73.3%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &__title {
+    margin-bottom: 44px;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__author, &__actions {
+    display: flex;
+    align-items: center;
+  }
+
+  &__img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    background-color: #B2B3BB;
+    border-radius: 50%;
+  }
+
+  &__name {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+  }
+
+  &__actions {
+    .btn-with-num:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}
+
+.with-link-icon {
+  position: relative;
+  padding-left: 20px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/images/icons/link-icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.tag-item {
+  padding: 3px 4px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #3E4056;
+  text-decoration: none;
+  background-color: #ECF1F8;
+  border-radius: 6px;
+}
+
+.btn-with-num {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  height: 20px;
+  font-size: 0;
+  text-decoration: none;
+  transition: 0.1s;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-image: url('../../assets/images/icons/view-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #3E4056;
+  }
+
+  &--like {
+    &:before {
+      background-image: url('../../assets/images/icons/like-icon.svg');
+    }
+  }
+}
+
+.text-btn {
+  font-size: 18px;
+  line-height: 25px;
+  color: #F05D63;
+  transition: 0.1s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+

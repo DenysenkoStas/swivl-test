@@ -1,0 +1,24 @@
+.profile-page {
+  display: flex;
+  justify-content: space-between;
+
+  &__small-cell {
+    width: 29.5%;
+  }
+
+  &__medium-cell {
+    width: 66%;
+  }
+
+  &__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    .card-item {
+      margin-bottom: 25px;
+      width: 42.3%;
+    }
+  }
+}
