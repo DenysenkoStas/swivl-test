@@ -1,0 +1,14 @@
+.not-found {
+  text-align: center;
+
+  &__title {
+    font-size: 96px;
+    line-height: 110px;
+  }
+
+  &__desc {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 38px;
+  }
+}

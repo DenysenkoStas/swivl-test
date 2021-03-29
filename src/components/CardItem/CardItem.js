@@ -31,7 +31,7 @@ export default class CardItem extends Component {
                         <>
                             <span className={viaLink ? 'with-link-icon' : null}>
                                 {viaLink ? 'Shared via weblink' : 'Shared to'}</span>
-                            {!viaLink && <Link className='tag-item' to='/tags/'>#discussionaboutanimgttdds…</Link>}
+                            {!viaLink && <Link className='tag-item' to='/tags/'>#discussionaboutanimgttddsss</Link>}
                         </>
                     )}
                 </div>

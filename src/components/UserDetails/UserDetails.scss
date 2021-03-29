@@ -12,16 +12,20 @@
     border-radius: 50%;
   }
 
+  &__aside {
+    width: -webkit-fill-available;
+  }
+
   &__title-wrap {
     display: flex;
+    justify-content: space-between;
   }
 
   &__title {
     margin-bottom: 8px;
-    margin-right: 20px;
-    max-width: 145px;
     font-size: 24px;
     line-height: 26px;
+    word-break: break-word;
     color: #3E3F58;
   }
 
@@ -59,16 +63,14 @@
 
   &__list {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 25px;
+    max-width: 285px;
   }
 
   &__list-item {
     text-align: center;
     color: #3E3F58;
-
-    &:not(:last-of-type) {
-      margin-right: 50px;
-    }
 
     p {
       font-size: 18px;
@@ -86,9 +88,11 @@
   }
 }
 
+// Button with menu
 .dots-wrap {
   position: relative;
   margin-top: -7px;
+  margin-right: 9px;
 
   &__btn {
     width: 25px;
@@ -146,6 +150,36 @@
 
     &.block:before {
       background-image: url('../../assets/images/icons/block-icon.svg');
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .user {
+    &__img {
+      margin-right: 15px;
+      width: 90px;
+      height: 90px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .dots-wrap {
+    margin-right: 0;
+
+    &__menu {
+      left: auto;
+      right: 0;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .user {
+    &__list {
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }

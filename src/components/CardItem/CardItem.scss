@@ -11,13 +11,13 @@
     height: 22px;
 
     span {
+      min-width: 75px;
       line-height: 22px;
       font-weight: 600;
     }
 
     a {
       margin-left: 4px;
-      width: 73.3%;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -29,6 +29,11 @@
     font-size: 36px;
     line-height: 44px;
     font-weight: 400;
+
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
   }
 
   &__wrap {
@@ -45,12 +50,15 @@
   &__img {
     margin-right: 10px;
     width: 24px;
+    min-width: 24px;
     height: 24px;
+    object-fit: cover;
     background-color: #B2B3BB;
     border-radius: 50%;
   }
 
   &__name {
+    padding-right: 10px;
     font-size: 14px;
     line-height: 19px;
     font-weight: 600;
@@ -63,6 +71,7 @@
   }
 }
 
+// Text with link icon
 .with-link-icon {
   position: relative;
   padding-left: 20px;
@@ -91,6 +100,7 @@
   border-radius: 6px;
 }
 
+// Button with number
 .btn-with-num {
   position: relative;
   display: flex;
@@ -132,6 +142,7 @@
   }
 }
 
+// Button as text
 .text-btn {
   font-size: 18px;
   line-height: 25px;
@@ -143,3 +154,12 @@
   }
 }
 
+@media (max-width: 1023px) {
+  .card-item {
+    &__title {
+      margin-bottom: 22px;
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+}

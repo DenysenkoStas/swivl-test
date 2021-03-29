@@ -22,7 +22,9 @@ export default class FeedPage extends Component {
                     <UserDetails/>
                 </div>
                 <div className='profile-page__medium-cell'>
-                    <Switcher/>
+                    <div className='profile-page__switcher'>
+                        <Switcher/>
+                    </div>
                     <div className='profile-page__card-list'>
                         {cardList.map(({id, shared, viaLink}) => (
                             <CardItem key={id} shared={shared} viaLink={viaLink}/>
