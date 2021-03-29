@@ -31,7 +31,7 @@ export default class CardItem extends Component {
                         <>
                             <span className={viaLink ? 'with-link-icon' : null}>
                                 {viaLink ? 'Shared via weblink' : 'Shared to'}</span>
-                            {!viaLink && <Link className='tag-item' to='/tags/'>#discussionaboutanimgttddsss</Link>}
+                            {!viaLink && <Link className='tag-item' to='/swivl-test/tags/'>#discussionaboutanimgttddsss</Link>}
                         </>
                     )}
                 </div>
@@ -46,7 +46,7 @@ export default class CardItem extends Component {
                     <div className='card-item__actions'>
                         {shared ? (
                             <>
-                                <Link className='btn-with-num' to='/view/'>
+                                <Link className='btn-with-num' to='/swivl-test/view/'>
                                     View <span>88</span>
                                 </Link>
                                 <button className='btn-with-num btn-with-num--like'>

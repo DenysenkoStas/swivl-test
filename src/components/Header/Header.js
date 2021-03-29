@@ -21,7 +21,7 @@ export default class Header extends Component {
         return (
             <header className='header'>
                 <div className='header-mob'>
-                    <Link className='header-mob__logo header__logo' to='/'>
+                    <Link className='header-mob__logo header__logo' to='/swivl-test/'>
                         <img src={logo} alt='logo'/>
                     </Link>
                     <button className={`header-mob__btn${menuOpened ? ' opened' : ''}`}
@@ -32,12 +32,12 @@ export default class Header extends Component {
 
                 <div className={`header__container container${menuOpened ? ' opened' : ''}`}>
                     <div className='header__row'>
-                        <Link className='header__logo' to='/'>
+                        <Link className='header__logo' to='/swivl-test/'>
                             <img src={logo} alt='logo'/>
                         </Link>
                         <div className='header-profile'>
                             <div className='header-profile__inner'>
-                                <Link className='header-profile__link' to='/my-profile/'>
+                                <Link className='header-profile__link' to='/swivl-test/my-profile/'>
                                     <span className='header-profile__name'>Arthur Wood</span>
                                     <img className='header-profile__img' src={user} alt='user'/>
                                 </Link>
@@ -53,9 +53,9 @@ export default class Header extends Component {
                     </div>
                     <div className='header__row'>
                         <nav className='header-nav'>
-                            <NavLink className='header-nav__item' to='/' exact>Feed</NavLink>
-                            <NavLink className='header-nav__item' to='/explore/' exact>Explore</NavLink>
-                            <NavLink className='header-nav__item' to='/discussions/' exact>Discussions</NavLink>
+                            <NavLink className='header-nav__item' to='/swivl-test/' exact>Feed</NavLink>
+                            <NavLink className='header-nav__item' to='/swivl-test/explore/' exact>Explore</NavLink>
+                            <NavLink className='header-nav__item' to='/swivl-test/discussions/' exact>Discussions</NavLink>
                         </nav>
                         <div className='header__action-wrap'>
                             <button className='action-btn'>Add</button>

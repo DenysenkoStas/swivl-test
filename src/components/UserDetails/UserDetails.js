@@ -45,7 +45,7 @@ export default class UserDetails extends Component {
                             </div>
                         </div>
                         <span className='user__nick'>@benclementine</span>
-                        <Link className='user__edit' to='/profile-edit/'>Edit Profile</Link>
+                        <Link className='user__edit' to='/swivl-test/profile-edit/'>Edit Profile</Link>
                     </div>
                 </div>
                 <ul className='user__list'>

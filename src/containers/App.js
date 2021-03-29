@@ -12,7 +12,7 @@ export default class App extends Component {
                 <div className='app-container'>
                     <Header/>
                     <Switch>
-                        <Route path='/' exact component={FeedPage}/>
+                        <Route path='/swivl-test/' exact component={FeedPage}/>
                         <Route component={NotFound}/>
                     </Switch>
                 </div>
