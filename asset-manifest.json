@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/swiwl-test/static/css/main.600ca143.chunk.css",
+    "main.js": "/swiwl-test/static/js/main.bebed235.chunk.js",
+    "main.js.map": "/swiwl-test/static/js/main.bebed235.chunk.js.map",
+    "runtime-main.js": "/swiwl-test/static/js/runtime-main.33360abd.js",
+    "runtime-main.js.map": "/swiwl-test/static/js/runtime-main.33360abd.js.map",
+    "static/js/2.075bd449.chunk.js": "/swiwl-test/static/js/2.075bd449.chunk.js",
+    "static/js/2.075bd449.chunk.js.map": "/swiwl-test/static/js/2.075bd449.chunk.js.map",
+    "index.html": "/swiwl-test/index.html",
+    "static/css/main.600ca143.chunk.css.map": "/swiwl-test/static/css/main.600ca143.chunk.css.map",
+    "static/js/2.075bd449.chunk.js.LICENSE.txt": "/swiwl-test/static/js/2.075bd449.chunk.js.LICENSE.txt",
+    "static/media/Header.scss": "/swiwl-test/static/media/share-recap.9d385d5d.svg",
+    "static/media/UserDetails.scss": "/swiwl-test/static/media/report-icon.ad0ba86b.svg",
+    "static/media/CardItem.scss": "/swiwl-test/static/media/view-icon.dc6daad7.svg",
+    "static/media/logo.10a04a65.svg": "/swiwl-test/static/media/logo.10a04a65.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33360abd.js",
+    "static/js/2.075bd449.chunk.js",
+    "static/css/main.600ca143.chunk.css",
+    "static/js/main.bebed235.chunk.js"
+  ]
+}
