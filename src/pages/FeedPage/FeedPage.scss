@@ -18,10 +18,14 @@
 
   &__card-list {
     display: grid;
+    display: -ms-grid;
     grid-template-columns: repeat(auto-fit, minmax(374px, 1fr));
     grid-column-gap: 24px;
-    grid-row-gap: 24px;
     margin-top: 60px;
+
+    .card-item {
+      margin-bottom: 24px;
+    }
   }
 }
 
