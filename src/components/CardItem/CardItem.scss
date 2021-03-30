@@ -90,6 +90,7 @@
   }
 }
 
+// Tag link
 .tag-item {
   padding: 3px 4px;
   line-height: 16px;
@@ -98,6 +99,11 @@
   text-decoration: none;
   background-color: #ECF1F8;
   border-radius: 6px;
+
+  &:hover {
+    color: #ECF1F8;
+    background-color: #3E4056;
+  }
 }
 
 // Button with number

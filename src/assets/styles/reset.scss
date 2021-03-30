@@ -53,8 +53,16 @@ table {
   border-spacing: 0;
 }
 
+// Custom reset for links, buttons & inputs
 a, button, input {
-  outline-width: 0;
+  &:focus:not(:focus-visible) {
+    outline-width: 0;
+  }
+
+  &:focus {
+    outline-color: #F05D63;
+    outline-offset: 3px;
+  }
 }
 
 button {
